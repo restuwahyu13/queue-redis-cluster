@@ -25,6 +25,7 @@ const WorkerQueue = new Worker('Superhero', async (job) => console.log(job.data)
 	prefix: '{bullMQ}'
 })
 
-WorkerQueue.on('waiting', () => console.log('waiting completed'))
-WorkerQueue.on('completed', () => console.log('jobs completed'))
-WorkerQueue.on('failed', () => console.log('failed completed'))
+WorkerQueue.on('waiting', () => console.log('job is waiting'))
+WorkerQueue.on('completed', () => console.log('job is completed'))
+WorkerQueue.on('failed', () => console.log('job is failed'))
+WorkerQueue.on('error', () => console.log('job is error'))
