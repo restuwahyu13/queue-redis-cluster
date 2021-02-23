@@ -12,6 +12,10 @@
  npm run bull or npm run bullmq
 ```
 
+### Custom Queue
+
+follow this link for custom [Queue](https://github.com/restuwahyu13/express-todo-bullmq) for `bull` or `bullmq`
+
 ### Bull
 
 ```javascript
