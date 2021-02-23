@@ -1,0 +1,23 @@
+{
+	"name": "redis-cluster",
+	"version": "1.0.0",
+	"description": "example using bull and bullmq with redis cluster",
+	"main": "index.js",
+	"scripts": {
+		"bull": "node bullmq.js",
+		"bullmq": "node bullmq.js"
+	},
+	"keywords": [
+		"bull",
+		"bullmq",
+		"queue",
+		"redis cluster"
+	],
+	"author": "restuwahyu13",
+	"license": "MIT",
+	"dependencies": {
+		"bull": "^3.20.1",
+		"bullmq": "^1.14.7",
+		"ioredis": "^4.22.0"
+	}
+}
